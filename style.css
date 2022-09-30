@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background: url(https://static.vecteezy.com/system/resources/previews/002/561/913/original/electronic-circuit-design-that-leaves-the-center-blank-circled-on-a-dark-purple-background-vector.jpg);
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+.body{
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    height:90vh;
+    width: 40vw;
+    min-width: 300px;
+    background-color: white;
+    position: relative;
+}
+.heading-body{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    border-radius: 10px,10px,0px,0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading-body .profile-img img{
+    width: 7vh;
+    border-radius: 50%;
+}
+.heading-body .profile-Name p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+.typing-body{
+    background-color: white;
+    border: 1px solid #ebebeb;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.typing-body input{
+    border: none;
+    border-radius: 10px;
+    background-color: #ebebeb;
+    color: #2a2a2a;
+    height: 60%;
+    width: 60%;
+    min-width: 180px;
+    font-size: 18px;
+    padding: 10px;
+}
+.typing-body button{
+    border-radius: 50%;
+    height: 60%;
+    width: 50px;
+    margin: 20px;
+    background-color: #9253e6;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.typing-body button span{
+    z-index: 1000;
+    color: white;
+    font-size: 30px;
+}
+.send{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+.send .message-send-body{
+    background-color: #9253e6;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 45%;
+}
+.receive{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+.receive .message-receive-body{
+    background-color: #9253e6;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 45%;
+}
+.message-heading{
+  font-size: 18px;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+.chat-body{
+  height: 80vh;
+  overflow-y: scroll;
+  padding-bottom:80px;
+}
